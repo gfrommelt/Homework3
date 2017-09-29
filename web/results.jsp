@@ -3,8 +3,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <link rel="stylesheet" type="text/css" href="externalStylesheet.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Results</title>
+    
     </head>
     <%
     
@@ -43,6 +45,7 @@ Double netPay=postTaxAmount-posttaxDeduct;
     %>
     <body>
         <h1>Salary Info</h1>
+        <hr>
         <table>
             <tbody>
                 <tr>

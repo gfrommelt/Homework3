@@ -1,0 +1,33 @@
+
+body {
+    background-color: lightblue;
+}
+
+table{
+
+margin: 5px  auto; /*   used to   center the div */
+text-align:left;/* left justifies the text inside of the div */
+border: 5px black;
+box-sizing: border-box;
+
+}
+td{
+    color: white;
+}
+th{
+    background-color: grey;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+div{
+    text-align: center;
+    
+}
+
+hr{
+    border-top-color: white;
+    
+}

@@ -8,9 +8,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="externalStylesheet.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Homework Three</title>
     <h1>Salary Calculator</h1>
+    <hr>
     
     <form name="salaryCalculator" action="results.jsp" method="post">
         <table>
@@ -50,9 +52,11 @@
             </tbody>
             
         </table>
+        <div>
        <input type="reset" value="Clear" id="clear">
        <input type="submit" value="Submit" id="submit"> 
-    </form>
+        </div>
+       </form>
     </head>
     <body>
     </body>
